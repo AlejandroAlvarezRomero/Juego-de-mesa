@@ -1,0 +1,34 @@
+name: frontend
+description: "Board Game Tracker — registra partidas, compite con amigos."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  dio: ^5.11.1
+  flutter_riverpod: ^3.4.3
+  go_router: ^18.1.0
+  intl: ^0.20.3
+  flutter_secure_storage: ^11.2.0
+
+  # --- Fase F1: Animación y UI premium ---
+  flutter_animate: ^4.5.2          # Animaciones declarativas encadenables
+  shimmer: ^3.0.0                  # Efecto shimmer para loading skeletons
+  google_fonts: ^6.2.1             # Fuente Poppins y otras
+  cached_network_image: ^3.4.1     # Caché de imágenes de red con placeholder
+  flutter_svg: ^2.0.17             # Soporte SVG para iconos personalizados
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
